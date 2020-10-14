@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Test</string>
+    <string name="hint_description">Description</string>
+    <string name="description">Description</string>
+    <string name="title">Title</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="save">Save</string>
+    <string name="priority">Priority</string>
+    <string name="search">Search</string>
+    <string name="filter">Filter</string>
+    <string name="filter_by_title">Filter by title</string>
+    <string name="filter_by_position">Filter by position</string>
+    <string name="filter_by_priority">Filter by priority</string>
+    <string name="filter_by_status">Filter by status</string>
+    <string name="filter_by_date">Filter by date</string>
+    <string name="status">Status</string>
+    <string name="update">Update</string>
+</resources>
