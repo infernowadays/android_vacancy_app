@@ -52,6 +52,8 @@ public class UpdateTaskActivity extends BaseTaskActivity {
         if (alarmManager != null) {
             // Remove old notification, because the date has changed
             alarmManager.cancel(old);
+
+            // Setup notification with a new date
             PendingIntent pendingIntent = PendingIntent.getBroadcast(UpdateTaskActivity.this, task.getId(), intent, 0);
 
             // Run a new one alarm notification

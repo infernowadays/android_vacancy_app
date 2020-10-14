@@ -28,14 +28,12 @@ $ git clone https://github.com/maximus1998g/task_app.git
 #### Build and package your app into an APK in Android Studio via Gradle
 ```
 $ gradle build
-
 ```
 
 
 #### Install your app using adb
 ```
 $ adb install path_to_apk
-
 ```
 
 #### Run and test your app on the emulator
