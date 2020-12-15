@@ -2,7 +2,8 @@
 
 Task Manager App - an application that allows you to create notes.
 
-Functional requirements:
+## Functional requirements
+
 - Setting the title, description, date, time, task priority and status (completed or not),
 - Creation of a task,
 - Task editing,
@@ -12,7 +13,8 @@ Functional requirements:
 - Notifications when the task completion date has expired.
 
 
-Non-functional requirements:
+## Non-functional requirements:
+
 - Java project implementation language
 - Internal storage is organized through the Room,
 - Used standard libraries Android X,
@@ -40,3 +42,6 @@ $ adb install path_to_apk
 
 
 Full Android Studio installation documentation https://developer.android.com/studio/run/emulator-commandline
+
+## Release
+You can also download .apk from release branch 
