@@ -1,4 +1,4 @@
-package com.example.test.services;
+package com.lazysecs.nota.services;
 
 import android.app.Notification;
 import android.app.PendingIntent;
@@ -9,8 +9,8 @@ import android.content.Intent;
 import androidx.core.app.NotificationCompat;
 import androidx.core.app.NotificationManagerCompat;
 
-import com.example.test.R;
-import com.example.test.activities.MainActivity;
+import com.lazysecs.nota.R;
+import com.lazysecs.nota.activities.MainActivity;
 
 import java.util.Random;
 

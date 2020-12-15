@@ -1,4 +1,4 @@
-package com.example.test.utils;
+package com.lazysecs.nota.utils;
 
 import android.annotation.SuppressLint;
 import android.app.DatePickerDialog;

@@ -1,4 +1,4 @@
-package com.example.test.utils;
+package com.lazysecs.nota.utils;
 
 public class Constants {
     public static final String TABLE_NAME = "TASKS";

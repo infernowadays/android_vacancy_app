@@ -1,4 +1,4 @@
-package com.example.test.activities;
+package com.lazysecs.nota.activities;
 
 import android.annotation.SuppressLint;
 import android.app.AlarmManager;
@@ -11,9 +11,9 @@ import android.os.Bundle;
 
 import androidx.annotation.RequiresApi;
 
-import com.example.test.R;
-import com.example.test.models.Task;
-import com.example.test.services.AlarmReceiver;
+import com.lazysecs.nota.R;
+import com.lazysecs.nota.models.Task;
+import com.lazysecs.nota.services.AlarmReceiver;
 
 import java.lang.ref.WeakReference;
 import java.text.ParseException;

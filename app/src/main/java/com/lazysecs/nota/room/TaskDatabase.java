@@ -1,4 +1,4 @@
-package com.example.test.room;
+package com.lazysecs.nota.room;
 
 import android.content.Context;
 
@@ -6,8 +6,8 @@ import androidx.room.Database;
 import androidx.room.Room;
 import androidx.room.RoomDatabase;
 
-import com.example.test.utils.Constants;
-import com.example.test.models.Task;
+import com.lazysecs.nota.utils.Constants;
+import com.lazysecs.nota.models.Task;
 
 @Database(entities = Task.class, version = 1)
 public abstract class TaskDatabase extends RoomDatabase {

@@ -1,6 +1,6 @@
-package com.example.test.utils;
+package com.lazysecs.nota.utils;
 
-import com.example.test.models.Task;
+import com.lazysecs.nota.models.Task;
 
 import java.util.Collections;
 import java.util.List;

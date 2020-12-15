@@ -1,10 +1,10 @@
-package com.example.test.models;
+package com.lazysecs.nota.models;
 
 import androidx.room.Entity;
 import androidx.room.Ignore;
 import androidx.room.PrimaryKey;
 
-import com.example.test.utils.Constants;
+import com.lazysecs.nota.utils.Constants;
 
 @Entity(tableName = Constants.TABLE_NAME)
 public class Task {

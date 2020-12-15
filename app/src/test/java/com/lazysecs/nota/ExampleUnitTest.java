@@ -1,4 +1,4 @@
-package com.example.test;
+package com.lazysecs.nota;
 
 import org.junit.Test;
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.test">
+    package="com.lazysecs.nota">
 
     <application
         android:allowBackup="true"
@@ -10,14 +10,14 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-        <activity android:name=".activities.BaseTaskActivity" />
+        <activity android:name="com.lazysecs.nota.activities.BaseTaskActivity" />
         <activity
-            android:name=".activities.CreateTaskActivity"
-            android:parentActivityName=".activities.MainActivity" />
+            android:name="com.lazysecs.nota.activities.CreateTaskActivity"
+            android:parentActivityName="com.lazysecs.nota.activities.MainActivity" />
         <activity
-            android:name=".activities.UpdateTaskActivity"
-            android:parentActivityName=".activities.MainActivity" />
-        <activity android:name=".activities.MainActivity">
+            android:name="com.lazysecs.nota.activities.UpdateTaskActivity"
+            android:parentActivityName="com.lazysecs.nota.activities.MainActivity" />
+        <activity android:name="com.lazysecs.nota.activities.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -25,7 +25,7 @@
             </intent-filter>
         </activity>
 
-        <receiver android:name=".services.AlarmReceiver" />
+        <receiver android:name="com.lazysecs.nota.services.AlarmReceiver" />
     </application>
 
 </manifest>

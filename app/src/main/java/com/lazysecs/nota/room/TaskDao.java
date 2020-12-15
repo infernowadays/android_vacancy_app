@@ -1,4 +1,4 @@
-package com.example.test.room;
+package com.lazysecs.nota.room;
 
 import androidx.room.Dao;
 import androidx.room.Delete;
@@ -6,8 +6,8 @@ import androidx.room.Insert;
 import androidx.room.Query;
 import androidx.room.Update;
 
-import com.example.test.models.Task;
-import com.example.test.utils.Constants;
+import com.lazysecs.nota.models.Task;
+import com.lazysecs.nota.utils.Constants;
 
 import java.util.List;
 

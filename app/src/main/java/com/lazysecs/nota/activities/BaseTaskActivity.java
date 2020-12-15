@@ -1,4 +1,4 @@
-package com.example.test.activities;
+package com.lazysecs.nota.activities;
 
 import android.annotation.SuppressLint;
 import android.app.NotificationChannel;
@@ -10,10 +10,10 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.test.R;
-import com.example.test.models.Task;
-import com.example.test.room.TaskDatabase;
-import com.example.test.utils.CalendarHandler;
+import com.lazysecs.nota.R;
+import com.lazysecs.nota.models.Task;
+import com.lazysecs.nota.room.TaskDatabase;
+import com.lazysecs.nota.utils.CalendarHandler;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

@@ -1,4 +1,4 @@
-package com.example.test.adapters;
+package com.lazysecs.nota.adapters;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -18,13 +18,12 @@ import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.test.R;
-import com.example.test.activities.UpdateTaskActivity;
-import com.example.test.models.Task;
-import com.example.test.room.TaskDatabase;
+import com.lazysecs.nota.R;
+import com.lazysecs.nota.activities.UpdateTaskActivity;
+import com.lazysecs.nota.models.Task;
+import com.lazysecs.nota.room.TaskDatabase;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
 import butterknife.BindView;

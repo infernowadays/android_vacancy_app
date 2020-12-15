@@ -1,4 +1,4 @@
-package com.example.test.activities;
+package com.lazysecs.nota.activities;
 
 import android.content.Intent;
 import android.os.AsyncTask;
@@ -14,11 +14,11 @@ import androidx.appcompat.widget.SearchView;
 import androidx.recyclerview.widget.ItemTouchHelper;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.test.R;
-import com.example.test.adapters.TasksAdapter;
-import com.example.test.models.Task;
-import com.example.test.room.TaskDatabase;
-import com.example.test.utils.Sort;
+import com.lazysecs.nota.R;
+import com.lazysecs.nota.adapters.TasksAdapter;
+import com.lazysecs.nota.models.Task;
+import com.lazysecs.nota.room.TaskDatabase;
+import com.lazysecs.nota.utils.Sort;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import java.lang.ref.WeakReference;
